@@ -7,6 +7,10 @@ You can build this project using `composer`. You can download composer package m
 Project uses phpunit version 9 that requires a PHP 7.3 or PHP 7.4 (https://phpunit.de/getting-started/phpunit-9.html)  
 For additional code coverage also XDebug needs to be installed (https://xdebug.org/wizard)
 
+For mocking You can use ockery or phpUnit: 
+* https://github.com/mockery/mockery
+* https://phpunit.de/manual/6.5/en/test-doubles.html
+
 Build project  
 ``composer install``
 
