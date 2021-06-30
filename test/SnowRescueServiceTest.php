@@ -16,7 +16,6 @@ class SnowRescueServiceTest extends TestCase
         $this->weatherForecastService = $this->createStub(WeatherForecastService::class);
         $this->municipalServices = $this->createMock(MunicipalServices::class);
         $this->pressService = $this->createMock(PressService::class);
-
     }
 
     public function testSendingSander()
